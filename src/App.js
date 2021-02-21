@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import { Navbar , NavbarBrand} from 'reactstrap';
-import Menue from './components/menuComponent'
+import Menu from './components/menuComponent'
 import './App.css';
 
 
@@ -12,7 +12,7 @@ function App() {
           <Navbar href="/" >Restorant Con Fusion</Navbar>
         </div>
         </Navbar>
-        <menu/>
+        <Menu/>
     </div>
   );
 }
